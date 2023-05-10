@@ -1,3 +1,27 @@
-h1 {
-  color: green;
+*{
+  padding: 0; margin: 0;
+}
+.header{
+  display: flex;  /* делает все объекты блока свободными */
+  align-items: center; /* Выравнивает текст по середине */
+  justify-content: space-between; /* Выравнивает текст по правой стороне */
+  padding: 30px 15px;
+  box-sizing: border-box;
+}
+.menu{
+  display: flex;
+  list-style: none; /* Убирает маркеры списка */
+}
+.menu li{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.menu li a{
+  color: darkgray; 
+  text-decoration: none; /* Убирает подчеркивание ссылок */
+  font-size: 25px;
+}
+
+.menu li a:hover{
+  color: orange;
 }
